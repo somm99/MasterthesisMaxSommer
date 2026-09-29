@@ -1,0 +1,40 @@
+name: tangles-dev
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - bitarray
+  - tqdm
+  # QA
+  - pytest
+  - pytest-xdist
+  - pytest-timeout
+  - pytest-cov
+  - pytest-profiling
+  - mypy
+  # Scientific packages
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - pandas
+  - pyarrow
+  - pyreadstat
+  # Jupyter Notebooks
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - jupytext
+  - nbdev
+  # Documentation
+  - sphinx
+  - pydata-sphinx-theme
+  - myst-nb
+  - pandoc
+  # Formatting
+  - black
+  # Packaging
+  - build
+  # Dev setup
+  - conda-build

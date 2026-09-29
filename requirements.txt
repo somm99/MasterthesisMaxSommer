@@ -1,0 +1,49 @@
+# Tangles Explorer prototype — dependencies (including the ones for the tangles package).
+# Versions are the ones the project is currently developed against (Python 3.11).
+
+# UI
+streamlit>=1.58.0
+
+# Data handling
+pandas>=3.0.3
+numpy>=2.4.6
+pyarrow
+pyreadstat
+
+# Tangle search / embedding
+scikit-learn>=1.9.0
+scipy>=1.17.1
+scikit-image
+
+# Visualization
+plotly>=6.8.0
+matplotlib>=3.10.9
+
+# Required by the used `tangles` package
+bitarray>=3.8.1
+networkx>=3.6.1
+tqdm
+
+# QA / testing
+pytest
+pytest-xdist
+pytest-timeout
+pytest-cov
+pytest-profiling
+mypy
+
+# Jupyter notebooks (for the tangles tutorials)
+jupyterlab
+notebook
+ipywidgets
+jupytext
+nbdev
+
+# Documentation
+sphinx
+pydata-sphinx-theme
+myst-nb
+
+# Formatting / packaging
+black
+build
